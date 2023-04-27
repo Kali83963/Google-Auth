@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page With DRF</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+    <meta name="google-signin-client_id" content="764718647298-dfklsk0g5s87eouhhp4bu78fj03c52kg.apps.googleusercontent.com">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+
+    <div class="login">
+
+        <form id="login-form">
+            <h1>Login</h1>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="passoword">
+            <input type="submit" value="Login">
+           <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </form>
+
+    </div>
+
+    <script src="../js/login.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+</body>
+
+</html>
